@@ -12,8 +12,22 @@ header h1.title {
     left: 92px;
 }
 
-header h1.title + a>img.logo {
+header h1.title+a>img.logo {
     top: 30px;
     right: 6px;
     width: 6rem;
+}
+
+section {
+    min-height: 560px;
+}
+
+footer {
+    background-color: #00417B;
+}
+
+footer form label::before {
+    content: "*";
+    color: red;
+    font-size: 1.5rem;
 }
