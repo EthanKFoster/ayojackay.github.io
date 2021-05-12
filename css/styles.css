@@ -1,0 +1,19 @@
+header .jumbotron {
+    min-height: 100vh;
+    background: url("../img/1.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+header h1.title {
+    letter-spacing: .5rem;
+    top: 174px;
+    left: 92px;
+}
+
+header h1.title + a>img.logo {
+    top: 30px;
+    right: 6px;
+    width: 6rem;
+}
