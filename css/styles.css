@@ -24,6 +24,7 @@ section {
 
 footer {
     background-color: #00417B;
+    margin-top: 15rem;
 }
 
 footer form label::before {
